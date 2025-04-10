@@ -1,0 +1,10 @@
+---
+- name: Install utunnel service
+  shell: curl https://files.utunnel.io/production/deploy/install-accessgateway.sh | bash
+
+- name: Pull utunnel Docker image
+  docker_image:
+    name: utunnelio/utunnel
+    tag: production-24.04
+    source: pull
+

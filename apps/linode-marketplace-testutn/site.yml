@@ -1,0 +1,12 @@
+# linode ansible playbook
+
+- name: antmedia deploy
+  hosts: localhost
+  connection: local
+  gather_facts: true
+  any_errors_fatal: true
+  user: root
+  roles:
+    - docker
+    - utunnel
+
