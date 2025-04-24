@@ -1,6 +1,6 @@
 # linode ansible playbook
 
-- name: utunnel deploy
+- name: UTUNNEL DEPLOY
   hosts: localhost
   connection: local
   gather_facts: true
@@ -9,4 +9,3 @@
   roles:
     - docker
     - utunnel
-
