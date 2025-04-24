@@ -1,6 +1,6 @@
 # linode ansible playbook
 
-- name: antmedia deploy
+- name: utunnel deploy
   hosts: localhost
   connection: local
   gather_facts: true
