@@ -7,5 +7,4 @@
   any_errors_fatal: true
   user: root
   roles:
-    - docker
     - utunnel
